@@ -127,3 +127,14 @@ def game_hash
 end
 
 # Write code here
+
+def num_points_scored(hash)
+  hash_home = hash.each do |place, data|
+   data[:players].each do |key, value|
+      key[:points]
+   end
+  end
+    
+end
+ num_points_scored(game_hash)
+
